@@ -282,19 +282,3 @@ with col1:
 
 with col2:
     st.metric("ROC-AUC", "95.35%")
-
-
-# ---------------- HARDWARE STATUS ----------------
-
-st.header("5. Planned Hardware Integration")
-
-st.write("Hardware integration is planned for the next development stage.")
-
-st.write("- ESP32: Wi-Fi communication")
-st.write("- MAX30102: Heart rate and SpO2")
-st.write("- AD8232: ECG signal acquisition")
-
-st.caption(
-    "Sensor readings will be displayed separately. "
-    "They will not be substituted for the 13 clinical model inputs."
-)
